@@ -375,7 +375,7 @@ body{
 @media (max-width: 550px) {
     .Inside{
         position: relative;
-        padding-bottom:10%;
+        padding-bottom:110px;
      }
    
 
@@ -391,13 +391,12 @@ h2{
     
 }
  .ImagesCirclesSettings{
-     width: 60%;
+     width: 50%;
      height: 100%;
      
  }  
 
- h1{
-     font-size: 120%;
+ 
 }
 
  @media (max-width: 375px) {
