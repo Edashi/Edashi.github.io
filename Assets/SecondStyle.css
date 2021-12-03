@@ -1,0 +1,491 @@
+body{
+    overflow-x: hidden;
+   
+}
+textarea {
+	resize: none;
+	width: 80%;
+	height: 700px;
+    display: flex;
+}
+.Close{
+    position: absolute;
+    display: flex;
+    right: 0;
+    height: 70px; 
+    align-items: center;
+}
+.exit{
+    height: 70px;
+    transform: scale(0.7);
+
+}
+.exit:hover{
+    cursor: pointer;
+    transform: scale(0.8)
+}
+.Search{
+    margin-top: 90px;
+    align-items: center;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    background-color: #000422;
+    color: white;
+    padding-right: 5%;
+    z-index: 20;
+
+}
+
+.articlSearch{
+    margin-right: 25px;
+}
+.inp{
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 20px;
+    
+}
+
+
+.SearchButton{
+    
+}
+.inPlace{
+    display: block;
+    flex-direction: column;
+    
+    margin-left: 20%;
+    padding-bottom: 50px;
+    
+}
+.Forma{
+    
+    position: absolute;
+    display: none;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    
+    
+    margin-top: 150px;
+    
+    background-color: rgba(0, 0, 0, 0.568);
+    
+
+}
+.ArticleForm{
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(0, 23, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+}
+.place{
+    
+    display: none;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+   
+}
+.btnInForm{
+    background-color: green;
+    height: 25px;
+    color: white;
+    float: right;
+    margin-right: 20%;
+    margin-top: 10px;
+    
+    
+
+   
+    
+   
+    
+}
+
+
+
+.inpinform{
+    width: 80%;
+}
+.head{
+    position:fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0%;
+    min-height: 90px;
+    background: #00063C;
+    z-index: 10;
+   
+}
+.HeadBlock{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-family: Verdana,  Tahoma, sans-serif;
+    align-items: center;
+    
+
+}
+.LogoSettings{
+    height: 60px;
+}
+.InsideHead{
+    display: flex;
+   
+    height: 90px;
+    align-items: center;
+    
+    
+
+    
+ 
+}
+.Article{
+    margin-left: 50px;
+}
+.whoIsThere{
+    display: flex;
+    
+   
+    margin-right: 10%;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+}
+.ForMargin{
+    margin-right: 5%;
+    width: 100%;
+}
+.BtnInHead{
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-color: green;
+    align-self: center;
+    
+    
+   
+    font-family: 'Vollkorn', serif;
+
+}
+.BtnInHead:hover{
+    background-color: rgb(228, 186, 0);
+    cursor: pointer;
+    transform: scale(1.1);
+    border-color: rgb(228, 186, 0);
+}
+
+
+
+.side{
+    position: relative;
+    
+    margin-left: 5%;
+    width: 500px;
+    height: 500px;
+    box-shadow: #e6e6e6 1px 1px 25px 5px;
+    display: block;
+    justify-content: center;
+    
+}
+.Avatar{
+    max-width:200px; 
+    max-height:200px; 
+    min-width:150px; 
+    min-height:150px; 
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.settingsImg{
+    width: 100%;
+    
+    
+}
+.Field{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Name{
+    display: block;
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-top: 5%;
+}
+.FIO{
+    display: flex;
+    justify-content: center;
+    max-width:400px ;
+}
+.WhoIsIt{
+    display: flex;
+    justify-content: center;
+    max-width:400px ;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.BtnForm{
+    background-color: green;
+    height: 45px;
+    color: white;
+    
+}
+.BtnForm:hover{
+    background-color: rgb(19, 0, 102);
+    cursor: pointer;
+    transform: scale(1.1);
+    border-color: rgb(19, 0, 102);
+}
+.MainSpace{
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+  
+    border:solid 1px rgb(31, 16, 31);
+   
+    display: block;
+    height: 500px;
+    overflow-y: scroll;
+}
+.MainWindow{
+      margin-top: 250px;
+    
+    
+    
+  
+    display: flex;
+    justify-content: space-around;
+  
+}
+.HeadInFrame{
+    display: flex;
+    
+    background-color: rgb(0, 2, 92);
+    color: white;
+    font-size: 120%;
+}
+
+td:hover{
+    transform: scale(1);
+    background-color: rgb(190, 124, 0);
+    cursor: pointer;
+
+}
+@media (max-width: 1600px) {
+textarea {
+	resize: none;
+	width: 80%;
+	height: 300px;
+    display: flex;
+}}
+
+@media (max-width: 767px) {
+    .MainWindow{
+        margin-top: 200px;
+        margin-left: 0;
+      
+        display: block;
+        justify-content: space-around;
+}
+.MainSpace{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0  ;
+    
+    
+    border:solid 1px rgb(31, 16, 31);
+   
+    display: block;
+    height: 500px;
+    overflow-y: scroll;
+}
+.ArticleForm{
+    text-align: center;
+}
+.Article{
+    text-align: center;
+    display: none;
+    
+
+}
+.side{
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    
+    
+    
+    
+}
+.Field{
+    max-width: 100%;
+    display: block;
+    
+}
+.place{
+    
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
+.Forma{
+    position: absolute;
+    display: none;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    
+    
+    background-color: rgba(0, 0, 0, 0.568);
+
+    
+}
+.LogoSettings{
+    display: none;
+}
+.articlSearch{
+    display: none;
+}
+.Search{
+    justify-content: center;
+    margin: 0;
+    margin-top: 90px;
+}
+.head{
+    justify-content: center;
+    margin: 0;
+    
+}
+.Field{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Name{
+    display: block;
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-top: 5%;
+}
+.FIO{
+    display: flex;
+    justify-content: center;
+    max-width:100% ;
+}
+.WhoIsIt{
+    display: flex;
+    justify-content: center;
+    max-width:100% ;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    max-width:100% ;
+    padding-bottom: 50px;
+}
+.BtnForm{
+    background-color: green;
+    height: 45px;
+    color: white;
+    
+}
+.BtnForm:hover{
+    background-color: rgb(19, 0, 102);
+    cursor: pointer;
+    transform: scale(1.1);
+    border-color: rgb(19, 0, 102);
+}
+
+@media (max-width: 450px) {}
+.ArticleForm{
+    font-size: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exit{
+    
+    height: 50%;
+}
+.Forma{
+    
+    margin-top: 80px;
+    width: 100%;
+    z-index: 20;
+    
+   
+    
+    
+}
+.place{
+    
+   
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+ 
+  
+}
+.head{
+    z-index: 21;
+    
+}
+textarea {
+	resize: none;
+	width: 80%;
+	height: 280px;
+    display: flex;
+}
+}
